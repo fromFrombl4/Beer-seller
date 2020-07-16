@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		59626DDB24B3CC4400DBFAE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59626DDA24B3CC4400DBFAE8 /* AppDelegate.swift */; };
-		59626DDD24B3CC4400DBFAE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59626DDC24B3CC4400DBFAE8 /* SceneDelegate.swift */; };
 		59626DDF24B3CC4400DBFAE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59626DDE24B3CC4400DBFAE8 /* ViewController.swift */; };
 		59626DE224B3CC4400DBFAE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59626DE024B3CC4400DBFAE8 /* Main.storyboard */; };
 		59626DE424B3CC4900DBFAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59626DE324B3CC4900DBFAE8 /* Assets.xcassets */; };
 		59626DE724B3CC4900DBFAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59626DE524B3CC4900DBFAE8 /* LaunchScreen.storyboard */; };
+		59626DEF24B3D58F00DBFAE8 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59626DEE24B3D58F00DBFAE8 /* Beer.swift */; };
+		59626DF124B3D8BA00DBFAE8 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59626DF024B3D8BA00DBFAE8 /* Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		59626DD724B3CC4400DBFAE8 /* TMS_iOS_05_HA (Beer).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMS_iOS_05_HA (Beer).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59626DDA24B3CC4400DBFAE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59626DDC24B3CC4400DBFAE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		59626DDE24B3CC4400DBFAE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59626DE124B3CC4400DBFAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59626DE324B3CC4900DBFAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59626DE624B3CC4900DBFAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59626DE824B3CC4900DBFAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59626DEE24B3D58F00DBFAE8 /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		59626DF024B3D8BA00DBFAE8 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				59626DDA24B3CC4400DBFAE8 /* AppDelegate.swift */,
-				59626DDC24B3CC4400DBFAE8 /* SceneDelegate.swift */,
 				59626DDE24B3CC4400DBFAE8 /* ViewController.swift */,
 				59626DE024B3CC4400DBFAE8 /* Main.storyboard */,
 				59626DE324B3CC4900DBFAE8 /* Assets.xcassets */,
 				59626DE524B3CC4900DBFAE8 /* LaunchScreen.storyboard */,
 				59626DE824B3CC4900DBFAE8 /* Info.plist */,
+				59626DEE24B3D58F00DBFAE8 /* Beer.swift */,
+				59626DF024B3D8BA00DBFAE8 /* Manager.swift */,
 			);
 			path = "TMS_iOS_05_HA (Beer)";
 			sourceTree = "<group>";
@@ -139,8 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				59626DDF24B3CC4400DBFAE8 /* ViewController.swift in Sources */,
+				59626DEF24B3D58F00DBFAE8 /* Beer.swift in Sources */,
 				59626DDB24B3CC4400DBFAE8 /* AppDelegate.swift in Sources */,
-				59626DDD24B3CC4400DBFAE8 /* SceneDelegate.swift in Sources */,
+				59626DF124B3D8BA00DBFAE8 /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
